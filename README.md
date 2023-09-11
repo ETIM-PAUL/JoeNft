@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+# Sample NFT Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic Hardhat use case. It comes with a nft minting contract, a script to test.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+deployed address: 0xe08E83520ab894BeFe423C9991272af8F84AbE80

@@ -4,7 +4,7 @@ async function main() {
  
   const metadataURL = "ipfs://QmQxJLbvBKkegHQpFoysZ2mT2Pf6ZPYXhDnxHRxfot7bzY";
 
-  const nft = await ethers.deployContract("NFT", [metadataURL]);
+  const nft = await ethers.deployContract("BIG_JOE_NFT", [metadataURL]);
 
   await nft.waitForDeployment();
 
